@@ -13,7 +13,7 @@
         <mxCell id="X72S2jsAQp75nGiJENON-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X72S2jsAQp75nGiJENON-2" target="X72S2jsAQp75nGiJENON-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X72S2jsAQp75nGiJENON-2" value="&#39;Üçgenin iç köşe noktalarını girin.&#39;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="X72S2jsAQp75nGiJENON-2" value="&#39;Üçgenin üç köşe noktalarını girin.&#39;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="150" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="X72S2jsAQp75nGiJENON-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X72S2jsAQp75nGiJENON-4" target="X72S2jsAQp75nGiJENON-6" edge="1">
