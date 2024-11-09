@@ -13,7 +13,7 @@
         <mxCell id="ZTao545rvQ0QBk52h7uM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZTao545rvQ0QBk52h7uM-4" target="ZTao545rvQ0QBk52h7uM-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-4" value="&#39;Üçgenin iç köşe noktalarını girin.&#39;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="ZTao545rvQ0QBk52h7uM-4" value="&#39;Üçgenin üç köşe noktasını girin.&#39;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="150" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZTao545rvQ0QBk52h7uM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZTao545rvQ0QBk52h7uM-6" target="ZTao545rvQ0QBk52h7uM-7" edge="1">
@@ -27,11 +27,11 @@
             <mxPoint x="440" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-7" value="&lt;div&gt;K_kenarkare = (bx - ax)*(bx-ax) - (by - ay)*(by -ay)&lt;/div&gt;&lt;div&gt;L_kenarkare = (cx - bx)*(cx-bx) - (cy - by)*(cy -by)&lt;/div&gt;&lt;div&gt;M_kenarkare = (cx - ax)*(cx-ax) - (cy - ay)*(cy -ay)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ZTao545rvQ0QBk52h7uM-7" value="&lt;div&gt;K_kenarkare = (bx - ax)*(bx-ax) + (by - ay)*(by -ay)&lt;/div&gt;&lt;div&gt;L_kenarkare = (cx - bx)*(cx-bx) + (cy - by)*(cy -by)&lt;/div&gt;&lt;div&gt;M_kenarkare = (cx - ax)*(cx-ax) + (cy - ay)*(cy -ay)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="265" y="390" width="350" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-8" value="K &amp;lt; L" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="600" width="120" height="80" as="geometry" />
+        <mxCell id="ZTao545rvQ0QBk52h7uM-8" value="K_kenarkare &amp;lt; L_kenarkare" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="600" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZTao545rvQ0QBk52h7uM-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ZTao545rvQ0QBk52h7uM-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -42,9 +42,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="ZTao545rvQ0QBk52h7uM-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="ZTao545rvQ0QBk52h7uM-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="640" as="sourcePoint" />
+            <mxPoint x="340" y="640" as="sourcePoint" />
             <mxPoint x="310" y="720" as="targetPoint" />
             <Array as="points">
               <mxPoint x="310" y="640" />
@@ -57,11 +57,11 @@
         <mxCell id="ZTao545rvQ0QBk52h7uM-13" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="300" y="608" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-14" value="&lt;div&gt;smallest = K&lt;/div&gt;&lt;div&gt;largest = L&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="720" width="120" height="60" as="geometry" />
+        <mxCell id="ZTao545rvQ0QBk52h7uM-14" value="&lt;div&gt;smallest = K_kenarkare&lt;/div&gt;&lt;div&gt;largest = L_kenarkare&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="720" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-15" value="&lt;div&gt;smallest = L&lt;/div&gt;&lt;div&gt;largest = K&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="720" width="120" height="60" as="geometry" />
+        <mxCell id="ZTao545rvQ0QBk52h7uM-15" value="&lt;div&gt;smallest = L_kenarkare&lt;/div&gt;&lt;div&gt;largest = K_kenarkare&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="720" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZTao545rvQ0QBk52h7uM-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -87,10 +87,10 @@
             <mxPoint x="439.5" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-19" value="M &amp;lt; smallest" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="880" width="120" height="80" as="geometry" />
+        <mxCell id="ZTao545rvQ0QBk52h7uM-19" value="M_kenarkare &amp;lt; smallest" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="880" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ZTao545rvQ0QBk52h7uM-23" edge="1">
+        <mxCell id="ZTao545rvQ0QBk52h7uM-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="ZTao545rvQ0QBk52h7uM-23" edge="1" source="ZTao545rvQ0QBk52h7uM-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="920" as="sourcePoint" />
             <mxPoint x="560" y="1006" as="targetPoint" />
@@ -99,7 +99,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="ZTao545rvQ0QBk52h7uM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="ZTao545rvQ0QBk52h7uM-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="920" as="sourcePoint" />
             <mxPoint x="310" y="1000" as="targetPoint" />
@@ -108,13 +108,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-23" value="smallest = M" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1010" width="120" height="60" as="geometry" />
+        <mxCell id="ZTao545rvQ0QBk52h7uM-23" value="&lt;div&gt;smallest = M_kenarkare&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1010" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-24" value="M &amp;gt; largest" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="1000" width="120" height="80" as="geometry" />
+        <mxCell id="ZTao545rvQ0QBk52h7uM-24" value="M_kenarkare &amp;gt; largest" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1000" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="ZTao545rvQ0QBk52h7uM-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="ZTao545rvQ0QBk52h7uM-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="1040" as="sourcePoint" />
             <mxPoint x="400" y="1120" as="targetPoint" />
@@ -123,10 +123,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-28" value="largest = M" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1120" width="120" height="60" as="geometry" />
+        <mxCell id="ZTao545rvQ0QBk52h7uM-28" value="largest = M_kenarkare" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="1120" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-29" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="ZTao545rvQ0QBk52h7uM-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="ZTao545rvQ0QBk52h7uM-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="1040" as="sourcePoint" />
             <mxPoint x="200" y="1120" as="targetPoint" />
@@ -135,8 +135,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-30" value="middle =&amp;nbsp; M" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="1120" width="120" height="60" as="geometry" />
+        <mxCell id="ZTao545rvQ0QBk52h7uM-30" value="middle =&amp;nbsp; M_kenarkare" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1120" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZTao545rvQ0QBk52h7uM-31" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -186,6 +186,9 @@
         <mxCell id="ZTao545rvQ0QBk52h7uM-37" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="300" y="890" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WB0zMzoUUixFChTl5kHt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZTao545rvQ0QBk52h7uM-38" target="ZTao545rvQ0QBk52h7uM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZTao545rvQ0QBk52h7uM-38" value="T" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="385" y="1010" width="30" height="30" as="geometry" />
         </mxCell>
@@ -216,7 +219,7 @@
             <mxPoint x="420" y="1340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTao545rvQ0QBk52h7uM-43" value="smallest*smallest + middle*middle = largest*largest" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="ZTao545rvQ0QBk52h7uM-43" value="smallest + middle = largest" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="1320" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZTao545rvQ0QBk52h7uM-44" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
